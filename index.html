@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME PAGE</title>
+
+</head>
+<body>
+  <style>
+  * {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+ 
+
+    
+}
+.loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid blue;
+  border-right: 16px solid green;
+  border-bottom: 16px solid rgb(26, 195, 225);
+  border-left: 16px solid pink;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.bottom{
+ position: relative;
+ 
+ height: 50vh;
+ width: 50wh;
+ background-color: antiquewhite;
+}
+ main{
+   height: 100vh;
+   width: 80%;
+   background-color: rgb(2, 81, 81);
+
+  
+ }
+ header{
+   display:inline-block;
+  z-index: 10;
+  top: 0;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex: shrink 2;
+  
+  image-resolution: 100% 100%;
+
+  
+}
+ .top{
+   height: 30vh;
+   width: 33%;
+ 
+ }
+ .container{
+   display: inline-block;
+  height: 150vh;
+  width: 100%;
+  position: relative;
+ background-color:red;
+ background-repeat: no-repeat;
+ justify-content: center;
+ align-items: center;
+ }
+.robot{
+ position:fixed;
+ height: 110px;
+ width: 140px;
+ top:50%;
+ bottom: 100px;
+ left: 1385px;
+ background-color: rgb(218, 187, 170);
+ border-radius: 10px;
+ border: 5px solid rgb(74, 3, 48);
+ font-family: 'Courier New', Courier, monospace;
+ font-size: 2px;
+ background-image: url(robot1.jpg);
+}
+body {
+  overflow-x: hidden;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  flex-wrap: wrap;
+  background-color: rgba(156, 39, 176, 0.6) !important;
+  justify-content: center;
+  align-content: center;
+}
+@media screen and (max-width:800px) {
+  body{
+      background-color: blue;
+  }
+  .container{
+    background-color: chartreuse;
+  }
+  
+}
+.box1{
+
+height: 37vh;
+width:35%;
+ top:50px;
+bottom: 10px;
+left:130px;
+display: block;
+text-decoration: none;
+text-align: center;
+background-image: url('/iimtimage.jpg');
+margin-top: 20px;
+border-radius: 50px;
+
+
+}
+.box11{
+  position: relative;
+  display: inline-block;
+  left: 590px;
+  height: 55vh;
+  top: 10px;
+  width:700px;
+  background-color:white;
+  font-family:Arial, Helvetica, sans-serif;
+  background:scroll;
+  color:gold;
+  padding: 10px;
+  margin: 1Opx;
+  flex-wrap: wrap;
+  justify-content: center;
+   align-items: center;
+ }
+.box11 h2{
+ color: blue;
+ flex-wrap: wrap;
+}
+.box11 h3{
+ color: blue;
+ flex-wrap: wrap;
+}
+.box11 h4{
+ color:blue;
+ flex-wrap: wrap;
+}
+
+.box2 {
+ position: relative;
+height: 46vh;
+width:22%;
+ top:40px;
+bottom: 10px;
+left:130px;
+background-color: aqua;
+display: block;
+border-radius: 50px;
+text-decoration: none;
+text-align: center;
+background-image: url('/mdsir.jpg');
+
+}
+.box22{
+ position: relative;
+ display: inline-block;
+ left: 590px;
+ height: 55vh;
+ top: 10px;
+ width:700px;
+ background-color:white;
+ font-family:Arial, Helvetica, sans-serif;
+ background:scroll;
+ color:gold;
+ padding: 10px;
+ margin: 1Opx;
+ flex-wrap: wrap;
+ justify-content: center;
+  align-items: center;
+}
+.box22 h2{
+ color: blue;
+}
+.box22 h3{
+ color:blue;
+ flex-wrap: wrap;
+}
+.box3{
+ position: relative;
+height: 43vh;
+width:22%;
+ top:50px;
+bottom: 10px;
+left:130px;
+background-color: aqua;
+display: block;
+border-radius: 50px;
+text-align: center;
+margin-top: 20px;
+background-image: url('/sstyagisir.jpg');
+flex-wrap: wrap;
+justify-content: center;
+  align-items: center;
+}
+.box33{
+ position: relative;
+ display: inline-block;
+ left: 590px;
+ height: 55vh;
+ top: 10px;
+ width:700px;
+ background-color:white;
+ font-family:Arial, Helvetica, sans-serif;
+ background:scroll;
+ color:gold;
+ flex-wrap: wrap;
+ justify-content: center;
+  align-items: center;
+}
+.box33 h2{
+ color: blue;
+ justify-content: center;
+ align-items: center;
+}
+.box33 h3{
+ color:blue;
+}
+.box1 li a{
+ text-decoration: none;
+ color: rgb(42, 217, 156);
+ float: left;
+ text-align: center;
+
+}
+.box2 li a{
+ text-decoration: none;
+ color: rgb(100, 240, 72);
+ float:inline-start;
+ text-align: center;
+}
+.box3 li a{
+ text-decoration: none;
+ color: rgb(88, 234, 20);
+ float: left;
+ text-align: center;
+}
+      /* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: rgb(214, 116, 116);
+  top: 0;
+  padding: 30px;
+  flex-grow: 2;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-image: url(logo.png);
+  background-repeat: no-repeat;
+  
+  }
+
+  /* Style the topnav links */
+  .topnav a {
+  float: left;
+  display: block;
+   color: #3e1797;
+  text-align: center;
+  padding: 40px 30px;
+  text-decoration: none;
+  height: 6vh;
+ 
+ 
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: rgb(194, 207, 211);
+  color: rgb(94, 61, 61);
+}
+
+ /* Style the content */
+.content {
+  background-color: #ddd;
+  padding: 10px;
+  height: 200px; /* Should be removed. Only for demonstration */
+  width: 100%;
+}
+
+/* Style the footer */
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+.welcome{
+background-color: antiquewhite;
+width: 100%;
+height:10vh;
+border: 10px solid blueviolet;
+text-align: center;
+color: rgb(125, 168, 139);
+position: relative;
+display: inline-block;
+padding: auto;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+ .welcome h2{
+   margin-top: 16px;
+ }
+ .information{
+   list-style: square;
+   height: 100%;
+   width: 100%;
+   background-color:red;
+   position: relative;
+   display: inline-block;
+
+ }
+ /* college tour*/
+
+ .filterDiv {
+  float: left;
+  background-color: #2196F3;
+  color: #ffffff;
+  width: 100px;
+  line-height: 100px;
+  text-align: center;
+  margin: 2px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  margin-left: 200px;
+}
+
+.show {
+  display: block;
+}
+
+.container {
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+</style>
+
+            <div class="topnav">
+              <img src="logon.png">
+            <a href="stafffront.html">STAFF PORTAL</a>
+            <a href="faculityfront.html">FACUILTY PORTAL</a>
+            <a href="studentfront.html">STUDENT PORTAL</a>
+            <a href="parentsfront.html">PARENTS PORTAL</a>
+            <a href="developerfront.html">DEVLOPER PORTAL</a>
+           </div>
+                 <div class="box1">
+                  <main class="box11">
+                    <h2><b>
+                      𝐈𝐈𝐌𝐓 𝐂𝐎𝐋𝐋𝐄𝐆𝐄 𝐎𝐅 𝐄𝐍𝐆𝐈𝐍𝐄𝐄𝐑𝐈𝐍𝐆</b></h2>
+                    <h3>𝙿𝚕𝚘𝚝 𝙽𝚘.𝟷𝟿&𝟸𝟶,𝙺𝚗𝚘𝚠𝚕𝚎𝚍𝚐𝚎 𝙿𝚊𝚛𝚔-𝙸𝙸𝙸 𝙶𝚛𝚎𝚊𝚝𝚎𝚛 𝙽𝚘𝚒𝚍𝚊-𝟸𝟶𝟷𝟹𝟷𝟶, 𝚄𝚝𝚝𝚊𝚛 𝙿𝚛𝚊𝚍𝚎𝚜𝚑, 𝙸𝚗𝚍𝚒𝚊
+                    </h3>
+                     <h4>𝚌𝚘𝚗𝚝𝚊𝚌𝚝 𝚗𝚞𝚖𝚋𝚎𝚛:- 𝟶𝟷𝟸𝟶-𝟸𝟺𝟽𝟻𝟶𝟶𝟶,𝟶𝟷𝟸𝟶-𝟸𝟹𝟸𝟸𝟼𝟻𝟻,𝟿𝟿𝟷𝟷𝟶𝟶𝟿𝟷𝟺𝟺,
+                      𝘦𝘯𝘲𝘶𝘪𝘳𝘦𝘴@𝘪𝘪𝘮𝘵𝘪𝘯𝘥𝘪𝘢.𝘯𝘦𝘵
+                    </h4>
+                  <p>
+                    𝐈𝐈𝐌𝐓 𝐠𝐫𝐨𝐮𝐩 𝐨𝐟 𝐜𝐨𝐥𝐥𝐞𝐠𝐞 𝐢𝐬 𝐚 𝐨𝐧𝐞 𝐨𝐟 𝐭𝐡𝐞 𝐛𝐞𝐬𝐭 𝐜𝐨𝐥𝐥𝐞𝐠𝐞 𝐢𝐧 𝐈𝐧𝐝𝐢𝐚.𝐛𝐞𝐬𝐭 𝐩𝐥𝐚𝐜𝐞𝐦𝐞𝐧𝐭 𝐰𝐢𝐭𝐡 𝐛𝐞𝐬𝐭 𝐟𝐚𝐜𝐮𝐥𝐭𝐲.𝐓𝐡𝐞 𝐟𝐨𝐮𝐧𝐝𝐚𝐭𝐢𝐨𝐧 𝐨𝐟 
+                     𝐭𝐡𝐢𝐬 
+                      𝐦𝐚𝐠𝐧𝐚𝐧𝐢𝐦𝐨𝐮𝐬 𝐢𝐧𝐬𝐭𝐢𝐭𝐮𝐭𝐞 𝐰𝐚𝐬 𝐥𝐚𝐢𝐝 𝐢𝐧 𝟏𝟗𝟗𝟒.𝐓𝐡𝐞 𝐬𝐚𝐩𝐥𝐢𝐧𝐠 𝐡𝐚𝐬 𝐛𝐞𝐞𝐧 𝐠𝐚𝐢𝐧𝐢𝐧𝐠 𝐬𝐭𝐫𝐞𝐧𝐠𝐭𝐡 𝐚𝐧𝐝 𝐯𝐢𝐭𝐚𝐥𝐢𝐭𝐲 𝐰𝐢𝐭𝐡 𝐭𝐡𝐞 𝐨𝐮𝐭𝐜𝐨𝐦𝐞 
+                       𝐭𝐡𝐚𝐭 
+                       𝐭𝐨𝐝𝐚𝐲 𝐈𝐈𝐌𝐓 𝐬𝐭𝐚𝐧𝐝𝐬 𝐚𝐬 𝐭𝐡𝐞 𝐦𝐨𝐬𝐭 𝐛𝐞𝐚𝐮𝐭𝐢𝐟𝐮𝐥 𝐚𝐧𝐝 𝐟𝐫𝐚𝐠𝐫𝐚𝐧𝐭 𝐛𝐥𝐨𝐬𝐬𝐨𝐦 𝐨𝐟 𝐌𝐞𝐞𝐫𝐮𝐭 𝐢𝐦𝐩𝐚𝐫𝐭𝐢𝐧𝐠 𝐪𝐮𝐚𝐥𝐢𝐭𝐲 𝐞𝐝𝐮𝐜𝐚𝐭𝐢𝐨𝐧 𝐭𝐨 𝐭𝐡𝐞 
+                        𝐬𝐭𝐮𝐝𝐞𝐧𝐭𝐬.𝐈𝐈𝐌𝐓 𝐚𝐬 𝐚 𝐠𝐫𝐨𝐮𝐩, 𝐥𝐚𝐫𝐠𝐞 𝐚𝐧𝐝 𝐝𝐢𝐯𝐞𝐫𝐬𝐢𝐟𝐢𝐞𝐝,𝐢𝐦𝐩𝐚𝐫𝐭𝐬 𝐤𝐧𝐨𝐰𝐥𝐞𝐝𝐠𝐞 𝐢𝐧 𝐭𝐡𝐞 𝐟𝐢𝐞𝐥𝐝 𝐨𝐟 𝐄𝐧𝐠𝐢𝐧𝐞𝐞𝐫𝐢𝐧𝐠, 𝐌𝐚𝐧𝐚𝐠𝐞𝐦𝐞𝐧𝐭, 
+                         𝐄𝐝𝐮𝐜𝐚𝐭𝐢𝐨𝐧, 𝐋𝐚𝐰,𝐏𝐡𝐚𝐫𝐦𝐚𝐜𝐲, 𝐞𝐭𝐜. 𝐈𝐭 𝐡𝐚𝐬 𝐡𝐢𝐠𝐡𝐥𝐲 𝐪𝐮𝐚𝐥𝐢𝐟𝐢𝐞𝐝 𝐚𝐧𝐝 𝐞𝐱𝐩𝐞𝐫𝐢𝐞𝐧𝐜𝐞𝐝 𝐟𝐚𝐜𝐮𝐥𝐭𝐲 𝐦𝐞𝐦𝐛𝐞𝐫𝐬 𝐢𝐧 𝐭𝐡𝐞𝐢𝐫 𝐫𝐞𝐬𝐩𝐞𝐜𝐭𝐢𝐯𝐞 
+                          𝐟𝐮𝐧𝐜𝐭𝐢𝐨𝐧𝐚𝐥 𝐚𝐫𝐞𝐚𝐬. 𝐈𝐈𝐌𝐓 𝐛𝐨𝐚𝐬𝐭𝐬 𝐨𝐟 𝐡𝐚𝐯𝐢𝐧𝐠 𝐦𝐨𝐫𝐞 𝐭𝐡𝐚𝐧 𝟖,𝟎𝟎𝟎 𝐬𝐭𝐮𝐝𝐞𝐧𝐭𝐬 𝐢𝐧 𝐯𝐚𝐫𝐢𝐨𝐮𝐬 𝐜𝐨𝐮𝐫𝐬𝐞𝐬 𝐢𝐧 𝐬𝐢𝐱 
+                           𝐜𝐨𝐥𝐥𝐞𝐠𝐞𝐬.𝐞𝐱𝐜𝐞𝐥𝐥𝐞𝐧𝐭 
+                           𝐀𝐜𝐚𝐝𝐞𝐦𝐢𝐜 𝐟𝐚𝐜𝐢𝐥𝐢𝐭𝐢𝐞𝐬.
+                     </p>
+                  </main>
+                 </div>
+    
+
+               <div class="box2">
+                <box class="box22">
+                  <h2><b>𝐌𝐀𝐍𝐀𝐆𝐈𝐍𝐆 𝐃𝐈𝐑𝐄𝐂𝐓𝐎𝐑</b></h2>
+                    <h3>"𝗠𝗼𝗹𝗱𝗶𝗻𝗴 𝘆𝗼𝘂𝗻𝗴 𝗺𝗶𝗻𝗱𝘀, 𝗰𝗿𝗮𝗳𝘁𝗶𝗻𝗴 𝗲𝘁𝗵𝗶𝗰𝗮𝗹𝗹𝘆 𝘀𝗼𝘂𝗻𝗱 𝗽𝗿𝗼𝗳𝗲𝘀𝘀𝗶𝗼𝗻𝗮𝗹𝘀"
+                    <br>𝐃𝐫. 𝐌𝐚𝐲𝐚𝐧𝐤 𝐀𝐠𝐚𝐫𝐰𝐚</h3>
+                  <p>ɪɴ ᴛʜᴇ ᴡᴏʀᴅꜱ ᴏꜰ ꜱᴡᴀᴍɪ ᴠɪᴠᴇᴋᴀɴᴀɴᴅᴀ
+                    ᴇᴅᴜᴄᴀᴛɪᴏɴ ɪꜱ ᴛʜᴇ ᴍᴀɴɪꜰᴇꜱᴛᴀᴛɪᴏɴ ᴏꜰ ᴘᴇʀꜰᴇᴄᴛɪᴏɴ ᴀʟʀᴇᴀᴅʏ ɪɴ ᴍᴇɴ. ꜰᴏʟʟᴏᴡɪɴɢ ᴛʜᴇ ꜱᴀᴍᴇ ᴠɪꜱɪᴏɴ ɪɪᴍᴛ ɢʀᴏᴜᴘ ᴏꜰ ᴄᴏʟʟᴇɢᴇꜱ ʜᴀꜱ 
+                     ʙᴇᴇɴ ᴄᴏɴᴛʀɪʙᴜᴛɪɴɢ ɪɴ ꜱᴄᴜʟᴘᴛɪɴɢ ᴛʜᴇ ʏᴏᴜɴɢ ᴍɪɴᴅꜱ ᴀɴᴅ ᴛʀᴀɴꜱꜰᴏʀᴍɪɴɢ ᴛʜᴇᴍ ᴀꜱ ʙᴇꜱᴛ ᴛᴇᴄʜɴᴏᴄʀᴀᴛꜱ ᴀɴᴅ ʙᴜꜱɪɴᴇꜱꜱ ᴡᴀʀʀɪᴏʀꜱ 
+                      ꜱɪɴᴄᴇ ᴍᴏʀᴇ ᴛʜᴀɴ ᴛᴡᴏ ᴅᴇᴄᴀᴅᴇꜱ.
+                    ɪɪᴍᴛ ɢʀᴏᴜᴘ ᴏꜰ ᴄᴏʟʟᴇɢᴇꜱ ɪꜱ ᴄᴏᴍᴍɪᴛᴛᴇᴅ ᴛᴏ ꜱᴇᴄᴜʀᴇ ɪᴛꜱ ᴘʟᴀᴄᴇ ɪɴ ɢʟᴏʙᴀʟ ᴇᴅᴜᴄᴀᴛɪᴏɴᴀʟ ᴀʀᴇɴᴀ. ᴏᴜʀ ᴍᴏᴛᴛᴏ ɪꜱ ᴛᴏ ᴄʀᴇᴀᴛᴇ 
+                     ɪɴᴅᴜꜱᴛʀʏ 
+                     ʀᴇᴀᴅʏ ᴘʀᴏꜰᴇꜱꜱɪᴏɴᴀʟꜱ ᴇQᴜɪᴘᴘᴇᴅ ᴡɪᴛʜ ꜱᴏᴜɴᴅ ᴡᴏʀᴋ ᴇᴛʜɪᴄꜱ ᴀɴᴅ ᴠᴀʟᴜᴇꜱ. ᴛᴏᴅᴀʏ ᴡᴇ ᴀʀᴇ ʀᴇᴄᴏɢɴɪᴢᴇᴅ ᴀᴍᴏɴɢ ᴛʜᴇ ʙᴇꜱᴛ ᴇᴅᴜᴄᴀᴛɪᴏɴ 
+                      ᴘʀᴏᴠɪᴅᴇʀꜱ ᴀɴᴅ ᴏɴᴇ ᴏꜰ ᴛʜᴇ ᴄʀᴇᴅɪʙʟᴇ ᴇᴅᴜᴄᴀᴛɪᴏɴᴀʟ ʙᴏᴅɪᴇꜱ ᴏꜰ ɴᴏʀᴛʜ ɪɴᴅɪᴀ. ᴡᴇ ʙᴇʟɪᴇᴠᴇ ɪɴ ʜᴏʟɪꜱᴛɪᴄ ɢʀᴏᴡᴛʜ ᴏꜰ ᴏᴜʀ 
+                       ꜱᴛᴜᴅᴇɴᴛꜱ 
+                       ʜᴇɴᴄᴇ ᴡɪᴛʜ ᴛʜᴇ ꜱᴀᴍᴇ ᴍᴏᴛɪᴠᴇ ᴡᴇ ᴘʀᴏᴠɪᴅᴇ Qᴜᴀʟɪᴛʏ ᴇᴅᴜᴄᴀᴛɪᴏɴ ᴛᴏ ɴᴜʀᴛᴜʀᴇ ᴛᴀʟᴇɴᴛ ᴀɴᴅ ᴀꜱᴘɪʀᴀᴛɪᴏɴ ᴏꜰ ᴛʜᴇ ᴅʏɴᴀᴍɪᴄ ʏᴏᴜᴛʜ 
+                        ᴏꜰ 
+                        ᴏᴜʀ ᴄᴏᴜɴᴛʀʏ.ᴡɪᴛʜ ᴛʜᴇ ᴘᴇʀꜱᴇᴠᴇʀᴀɴᴛ ᴇꜰꜰᴏʀᴛꜱ ᴏꜰ ᴏᴜʀ ᴅᴇᴅɪᴄᴀᴛᴇᴅ ɪɪᴍᴛ ᴛᴇᴀᴍ ᴡᴇ ᴀʀᴇ ɢᴇᴛᴛɪɴɢ ᴇxᴇᴍᴘʟᴀʀʏ ɢᴏᴏᴅ ʀᴇꜱᴜʟᴛꜱ ꜰʀᴏᴍ 
+                         ᴛʜᴇ ᴍᴇʀɪᴛ ᴘᴏɪɴᴛ ᴏꜰ ᴠɪᴇᴡ ᴀꜱ ᴡᴇʟʟ ᴀꜱ ꜰʀᴏᴍ ᴛʜᴇ ᴘʟᴀᴄᴇᴍᴇɴᴛ ᴘᴇʀꜱᴘᴇᴄᴛɪᴠᴇ.ɪ ᴀᴍ ᴅᴇʟɪɢʜᴛᴇᴅ ᴛᴏ ꜱᴀʏ ᴛʜᴀᴛ ᴍᴀɴʏ ᴏꜰ ᴏᴜʀ 
+                          ꜱᴛᴜᴅᴇɴᴛꜱ ᴀʀᴇ ɴᴏᴡ ʜᴏʟᴅɪɴɢ ᴘʀɪᴠɪʟᴇɢᴇᴅ ᴘᴏꜱɪᴛɪᴏɴꜱ..</p>
+                </box>
+                </div>  
+
+                <div class="box3">
+                  <div class="box33">
+                    <p>
+                     <h2><b>𝐃𝐈𝐑𝐄𝐂𝐓𝐎𝐑 𝐎𝐅 𝐈𝐈𝐌𝐓 𝐂𝐎𝐋𝐋𝐄𝐆𝐄 𝐎𝐅 𝐄𝐍𝐆𝐈𝐍𝐄𝐄𝐑𝐈𝐍𝐆</b></h2>
+                    <h3>"ᴛᴀᴋᴇ ᴛʜɪꜱ ᴏᴘᴘᴏʀᴛᴜɴɪᴛʏ ᴛᴏ ᴇxᴛᴇɴᴅ ᴛᴏ ʏᴏᴜ ᴀ ᴡᴀʀᴍ ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴛʜᴇ ɪɪᴍᴛ ᴄᴏʟʟᴇɢᴇ ᴏꜰ ᴇɴɢɪɴᴇᴇʀɪɴɢ, ɢʀᴇᴀᴛᴇʀ ɴᴏɪᴅᴀ.""
+                     <br> ᴘʀᴏꜰ (ᴅʀ.) ꜱ.ꜱ. ᴛʏᴀɢɪ
+                    </h3>
+                    ɪᴛ ɢɪᴠᴇꜱ ᴍᴇ ɪᴍᴍᴇɴꜱᴇ ᴘʟᴇᴀꜱᴜʀᴇ ᴛᴏ ᴡᴇʟᴄᴏᴍᴇ ʏᴏᴜ ᴛᴏ ɪɪᴍᴛ ᴄᴏʟʟᴇɢᴇ ᴏꜰ ᴇɴɢɪɴᴇᴇʀɪɴɢ. ɪɪᴍᴛ ɪꜱ ɴᴏᴛ ᴊᴜꜱᴛ ᴀɴ ɪɴꜱᴛɪᴛᴜᴛᴇ ʙᴜᴛ ɪᴛ 
+                     ɪꜱ 
+                    ᴀ ᴛᴇᴍᴘʟᴇ ᴏꜰ ʟᴇᴀʀɴɪɴɢ ᴅᴇᴠᴏᴛᴇᴅ ᴛᴏ ᴛʜᴇ ʀɪɢʜᴛ ᴅᴇᴠᴇʟᴏᴘᴍᴇɴᴛ ᴀɴᴅ ɢʀᴏᴡᴛʜ ᴏꜰ ᴇᴀᴄʜ ᴀɴᴅ ᴇᴠᴇʀʏ ꜱᴛᴜᴅᴇɴᴛ ꜰᴏʀ ᴀ ʙᴇᴛᴛᴇʀ ᴄᴀʀᴇᴇʀ 
+                     ᴘʀᴏꜱᴘᴇᴄᴛ. ɪɴᴅɪᴀɴ ɪɴᴅᴜꜱᴛʀʏ ɪꜱ ᴄᴏᴍᴘᴇᴛɪɴɢ ɢʟᴏʙᴀʟʟʏ ɪɴ ꜱᴏꜰᴛᴡᴀʀᴇ ᴀɴᴅ ᴀʀᴇᴀꜱ ꜱᴜᴄʜ ᴀꜱ ᴀᴜᴛᴏᴍᴏʙɪʟᴇꜱ, ᴄʜᴇᴍɪᴄᴀʟꜱ ᴀɴᴅ 
+                      ᴇɴɢɪɴᴇᴇʀɪɴɢ ᴇQᴜɪᴘᴍᴇɴᴛ. ᴀ ᴄʀɪᴛɪᴄᴀʟ ɪꜱꜱᴜᴇ ꜰᴏʀ ᴛʜᴇ ꜰᴜᴛᴜʀᴇ ꜱᴜᴄᴄᴇꜱꜱ ᴏꜰ ɪɴᴅɪᴀɴ ɪɴᴅᴜꜱᴛʀʏ ɪꜱ ᴛʜᴇ ꜱᴋɪʟʟ ᴅᴇᴠᴇʟᴏᴘᴍᴇɴᴛ ᴏꜰ 
+                       ꜰᴜᴛᴜʀᴇ ᴇɴɢɪɴᴇᴇʀꜱ.
+
+                     ɪɪᴍᴛ ᴄᴏʟʟᴇɢᴇ ᴏꜰ ᴇɴɢɪɴᴇᴇʀɪɴɢ ɪᴅᴇɴᴛɪꜰɪᴇꜱ ᴛʜᴇ ᴘᴏᴛᴇɴᴛɪᴀʟ ᴡɪᴛʜɪɴ ᴇᴀᴄʜ ꜱᴛᴜᴅᴇɴᴛ ᴀɴᴅ ᴘʀᴏᴠɪᴅᴇꜱ ꜱᴋɪʟʟ-ʙᴀꜱᴇᴅ ᴇᴅᴜᴄᴀᴛɪᴏɴ ꜱᴏ 
+                     ᴛʜᴀᴛ ᴛʜᴇɪʀ ᴘᴏᴛᴇɴᴛɪᴀʟꜱ ᴄᴀɴ ʙᴇ ᴜᴛɪʟɪᴢᴇᴅ ᴛᴏ ᴍᴀᴋᴇ ᴛʜᴇᴍ ꜱᴋɪʟʟᴇᴅ ᴇɴɢɪɴᴇᴇʀꜱ ᴄᴀᴘᴀʙʟᴇ ᴏꜰ ꜰᴀᴄɪɴɢ ᴀɴʏ ᴛʏᴘᴇ ᴏꜰ ᴄʜᴀʟʟᴇɴɢᴇ ɪɴ 
+                      ᴛʜᴇɪʀ ᴘʀᴏꜰᴇꜱꜱɪᴏɴᴀʟ ᴄᴀʀᴇᴇʀ. ᴛʜᴇ ɪɴꜱᴛɪᴛᴜᴛᴇ ᴘʀᴏᴠɪᴅᴇꜱ ᴄᴏᴍᴘʟᴇᴛᴇ ꜱᴜᴘᴘᴏʀᴛ ᴛᴏ ɪᴍᴘʀᴏᴠᴇ ᴄᴏᴍᴍᴜɴɪᴄᴀᴛɪᴏɴ ꜱᴋɪʟʟꜱ, ᴄʀɪᴛɪᴄᴀʟ 
+                       ᴛʜɪɴᴋɪɴɢ ꜱᴋɪʟʟꜱ, ʀᴇᴀꜱᴏɴɪɴɢ ꜱᴋɪʟʟꜱ ᴀɴᴅ ᴍᴏʀᴀʟ ᴠᴀʟᴜᴇꜱ ᴏꜰ ᴛʜᴇ ꜱᴛᴜᴅᴇɴᴛꜱ ꜱᴏ ᴛʜᴀᴛ ᴛʜᴇʏ ᴄᴀɴ ᴄᴏɴᴛʀɪʙᴜᴛᴇ ᴛʜᴇɪʀ ʙᴇꜱᴛ ᴛᴏ ᴛʜᴇ 
+                        ꜱᴏᴄɪᴇᴛʏ ᴀɴᴅ ᴛʜᴇ ɴᴀᴛɪᴏɴ. ᴛʜᴇ ɪɴꜰʀᴀꜱᴛʀᴜᴄᴛᴜʀᴇ ʜᴀꜱ ʙᴇᴇɴ ᴅᴇᴠᴇʟᴏᴘᴇᴅ ᴡɪᴛʜ ᴍᴏꜱᴛ ᴍᴏᴅᴇʀɴ ᴇQᴜɪᴘᴍᴇɴᴛ; ᴘʀᴏᴠɪꜱɪᴏɴꜱ ʜᴀᴠᴇ ᴀʟꜱᴏ 
+                         ʙᴇᴇɴ ᴍᴀᴅᴇ ᴛᴏ ᴜᴘɢʀᴀᴅᴇ ᴛʜᴇ ꜱᴀᴍᴇ ᴋᴇᴇᴘɪɴɢ ᴘᴀᴄᴇ ᴡɪᴛʜ ᴛʜᴇ ᴛᴇᴄʜɴᴏʟᴏɢɪᴄᴀʟ ᴀᴅᴠᴀɴᴄᴇᴍᴇɴᴛꜱ ᴏꜰ ᴛʜᴇ ᴛɪᴍᴇ.
+
+                    </p>
+                  </div>
+                </div>
+            </div>
+
+            </main>
+       
+      </div>
+   
+
+</body>    
+</html>
